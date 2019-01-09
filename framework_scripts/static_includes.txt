@@ -27,7 +27,6 @@
 #import <openssl/ts.h>
 #import <openssl/txt_db.h>
 #import <openssl/ui.h>
-#import <openssl/ui_compat.h>
 #import <openssl/whrlpool.h>
 #import <openssl/x509.h>
 #import <openssl/x509_vfy.h>

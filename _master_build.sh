@@ -77,11 +77,11 @@ function header()
 	export CONTENT=$(<"${UMBRELLA_STATIC_INCLUDES}")
 
 	# Create the macOS umbrella header
-	HEADER_DEST="${MAC_HEADER_DEST}"
-	HEADER_TEMPLATE="${MAC_HEADER_TEMPLATE}"
-	INCLUDES_DIR="${MAC_INCLUDES_DIR}"
-	source "${UMBRELLA_HEADER_SCRIPT}"
-	echo "Created $HEADER_DEST"
+	# HEADER_DEST="${MAC_HEADER_DEST}"
+	# HEADER_TEMPLATE="${MAC_HEADER_TEMPLATE}"
+	# INCLUDES_DIR="${MAC_INCLUDES_DIR}"
+	# source "${UMBRELLA_HEADER_SCRIPT}"
+	# echo "Created $HEADER_DEST"
 
 	# Create the iOS umbrella header
 	HEADER_DEST="${IOS_HEADER_DEST}"
