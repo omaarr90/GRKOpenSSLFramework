@@ -25,10 +25,8 @@
 		DB6EAD711F620AEF00CC0B1E /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD251F620AEF00CC0B1E /* conf_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD721F620AEF00CC0B1E /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD261F620AEF00CC0B1E /* crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD731F620AEF00CC0B1E /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD271F620AEF00CC0B1E /* des.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EAD741F620AEF00CC0B1E /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD281F620AEF00CC0B1E /* des_old.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD751F620AEF00CC0B1E /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD291F620AEF00CC0B1E /* dh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD761F620AEF00CC0B1E /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD2A1F620AEF00CC0B1E /* dsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EAD771F620AEF00CC0B1E /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD2B1F620AEF00CC0B1E /* dso.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD781F620AEF00CC0B1E /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD2C1F620AEF00CC0B1E /* dtls1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD791F620AEF00CC0B1E /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD2D1F620AEF00CC0B1E /* e_os2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD7A1F620AEF00CC0B1E /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD2E1F620AEF00CC0B1E /* ebcdic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,8 +38,6 @@
 		DB6EAD801F620AEF00CC0B1E /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD341F620AEF00CC0B1E /* evp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD811F620AEF00CC0B1E /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD351F620AEF00CC0B1E /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD821F620AEF00CC0B1E /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD361F620AEF00CC0B1E /* idea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EAD831F620AEF00CC0B1E /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD371F620AEF00CC0B1E /* krb5_asn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EAD841F620AEF00CC0B1E /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD381F620AEF00CC0B1E /* kssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD851F620AEF00CC0B1E /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD391F620AEF00CC0B1E /* lhash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD861F620AEF00CC0B1E /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD3A1F620AEF00CC0B1E /* md4.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD871F620AEF00CC0B1E /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD3B1F620AEF00CC0B1E /* md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,7 +53,6 @@
 		DB6EAD921F620AEF00CC0B1E /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD461F620AEF00CC0B1E /* pem2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD931F620AEF00CC0B1E /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD471F620AEF00CC0B1E /* pkcs12.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD941F620AEF00CC0B1E /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD481F620AEF00CC0B1E /* pkcs7.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EAD951F620AEF00CC0B1E /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD491F620AEF00CC0B1E /* pqueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD961F620AEF00CC0B1E /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD4A1F620AEF00CC0B1E /* rand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD971F620AEF00CC0B1E /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD4B1F620AEF00CC0B1E /* rc2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EAD981F620AEF00CC0B1E /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD4C1F620AEF00CC0B1E /* rc4.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,7 +65,6 @@
 		DB6EAD9F1F620AEF00CC0B1E /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD531F620AEF00CC0B1E /* srtp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA01F620AEF00CC0B1E /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD541F620AEF00CC0B1E /* ssl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA11F620AEF00CC0B1E /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD551F620AEF00CC0B1E /* ssl2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EADA21F620AEF00CC0B1E /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD561F620AEF00CC0B1E /* ssl23.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA31F620AEF00CC0B1E /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD571F620AEF00CC0B1E /* ssl3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA41F620AEF00CC0B1E /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD581F620AEF00CC0B1E /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA51F620AEF00CC0B1E /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD591F620AEF00CC0B1E /* symhacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -78,7 +72,6 @@
 		DB6EADA71F620AEF00CC0B1E /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD5B1F620AEF00CC0B1E /* ts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA81F620AEF00CC0B1E /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD5C1F620AEF00CC0B1E /* txt_db.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADA91F620AEF00CC0B1E /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD5D1F620AEF00CC0B1E /* ui.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6EADAA1F620AEF00CC0B1E /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD5E1F620AEF00CC0B1E /* ui_compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADAB1F620AEF00CC0B1E /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD5F1F620AEF00CC0B1E /* whrlpool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADAC1F620AEF00CC0B1E /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD601F620AEF00CC0B1E /* x509.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB6EADAD1F620AEF00CC0B1E /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EAD611F620AEF00CC0B1E /* x509_vfy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,10 +102,8 @@
 		DB6EAD251F620AEF00CC0B1E /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
 		DB6EAD261F620AEF00CC0B1E /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
 		DB6EAD271F620AEF00CC0B1E /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
-		DB6EAD281F620AEF00CC0B1E /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
 		DB6EAD291F620AEF00CC0B1E /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
 		DB6EAD2A1F620AEF00CC0B1E /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
-		DB6EAD2B1F620AEF00CC0B1E /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
 		DB6EAD2C1F620AEF00CC0B1E /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
 		DB6EAD2D1F620AEF00CC0B1E /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
 		DB6EAD2E1F620AEF00CC0B1E /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
@@ -124,8 +115,6 @@
 		DB6EAD341F620AEF00CC0B1E /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
 		DB6EAD351F620AEF00CC0B1E /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
 		DB6EAD361F620AEF00CC0B1E /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
-		DB6EAD371F620AEF00CC0B1E /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
-		DB6EAD381F620AEF00CC0B1E /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
 		DB6EAD391F620AEF00CC0B1E /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
 		DB6EAD3A1F620AEF00CC0B1E /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
 		DB6EAD3B1F620AEF00CC0B1E /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
@@ -141,7 +130,6 @@
 		DB6EAD461F620AEF00CC0B1E /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
 		DB6EAD471F620AEF00CC0B1E /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
 		DB6EAD481F620AEF00CC0B1E /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
-		DB6EAD491F620AEF00CC0B1E /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
 		DB6EAD4A1F620AEF00CC0B1E /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
 		DB6EAD4B1F620AEF00CC0B1E /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
 		DB6EAD4C1F620AEF00CC0B1E /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
@@ -154,7 +142,6 @@
 		DB6EAD531F620AEF00CC0B1E /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
 		DB6EAD541F620AEF00CC0B1E /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
 		DB6EAD551F620AEF00CC0B1E /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
-		DB6EAD561F620AEF00CC0B1E /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
 		DB6EAD571F620AEF00CC0B1E /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
 		DB6EAD581F620AEF00CC0B1E /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		DB6EAD591F620AEF00CC0B1E /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
@@ -162,7 +149,6 @@
 		DB6EAD5B1F620AEF00CC0B1E /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
 		DB6EAD5C1F620AEF00CC0B1E /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
 		DB6EAD5D1F620AEF00CC0B1E /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
-		DB6EAD5E1F620AEF00CC0B1E /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
 		DB6EAD5F1F620AEF00CC0B1E /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
 		DB6EAD601F620AEF00CC0B1E /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
 		DB6EAD611F620AEF00CC0B1E /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
@@ -243,10 +229,8 @@
 				DB6EAD251F620AEF00CC0B1E /* conf_api.h */,
 				DB6EAD261F620AEF00CC0B1E /* crypto.h */,
 				DB6EAD271F620AEF00CC0B1E /* des.h */,
-				DB6EAD281F620AEF00CC0B1E /* des_old.h */,
 				DB6EAD291F620AEF00CC0B1E /* dh.h */,
 				DB6EAD2A1F620AEF00CC0B1E /* dsa.h */,
-				DB6EAD2B1F620AEF00CC0B1E /* dso.h */,
 				DB6EAD2C1F620AEF00CC0B1E /* dtls1.h */,
 				DB6EAD2D1F620AEF00CC0B1E /* e_os2.h */,
 				DB6EAD2E1F620AEF00CC0B1E /* ebcdic.h */,
@@ -258,8 +242,6 @@
 				DB6EAD341F620AEF00CC0B1E /* evp.h */,
 				DB6EAD351F620AEF00CC0B1E /* hmac.h */,
 				DB6EAD361F620AEF00CC0B1E /* idea.h */,
-				DB6EAD371F620AEF00CC0B1E /* krb5_asn.h */,
-				DB6EAD381F620AEF00CC0B1E /* kssl.h */,
 				DB6EAD391F620AEF00CC0B1E /* lhash.h */,
 				DB6EAD3A1F620AEF00CC0B1E /* md4.h */,
 				DB6EAD3B1F620AEF00CC0B1E /* md5.h */,
@@ -275,7 +257,6 @@
 				DB6EAD461F620AEF00CC0B1E /* pem2.h */,
 				DB6EAD471F620AEF00CC0B1E /* pkcs12.h */,
 				DB6EAD481F620AEF00CC0B1E /* pkcs7.h */,
-				DB6EAD491F620AEF00CC0B1E /* pqueue.h */,
 				DB6EAD4A1F620AEF00CC0B1E /* rand.h */,
 				DB6EAD4B1F620AEF00CC0B1E /* rc2.h */,
 				DB6EAD4C1F620AEF00CC0B1E /* rc4.h */,
@@ -288,7 +269,6 @@
 				DB6EAD531F620AEF00CC0B1E /* srtp.h */,
 				DB6EAD541F620AEF00CC0B1E /* ssl.h */,
 				DB6EAD551F620AEF00CC0B1E /* ssl2.h */,
-				DB6EAD561F620AEF00CC0B1E /* ssl23.h */,
 				DB6EAD571F620AEF00CC0B1E /* ssl3.h */,
 				DB6EAD581F620AEF00CC0B1E /* stack.h */,
 				DB6EAD591F620AEF00CC0B1E /* symhacks.h */,
@@ -296,7 +276,6 @@
 				DB6EAD5B1F620AEF00CC0B1E /* ts.h */,
 				DB6EAD5C1F620AEF00CC0B1E /* txt_db.h */,
 				DB6EAD5D1F620AEF00CC0B1E /* ui.h */,
-				DB6EAD5E1F620AEF00CC0B1E /* ui_compat.h */,
 				DB6EAD5F1F620AEF00CC0B1E /* whrlpool.h */,
 				DB6EAD601F620AEF00CC0B1E /* x509.h */,
 				DB6EAD611F620AEF00CC0B1E /* x509_vfy.h */,
@@ -335,7 +314,6 @@
 				DB6EADAC1F620AEF00CC0B1E /* x509.h in Headers */,
 				DB6EAD8F1F620AEF00CC0B1E /* opensslv.h in Headers */,
 				DB6EAD721F620AEF00CC0B1E /* crypto.h in Headers */,
-				DB6EAD841F620AEF00CC0B1E /* kssl.h in Headers */,
 				DB6EAD6C1F620AEF00CC0B1E /* cast.h in Headers */,
 				DB6EADA01F620AEF00CC0B1E /* ssl.h in Headers */,
 				DB6EAD691F620AEF00CC0B1E /* bn.h in Headers */,
@@ -343,12 +321,10 @@
 				DB6EADA61F620AEF00CC0B1E /* tls1.h in Headers */,
 				DB6EAD6B1F620AEF00CC0B1E /* camellia.h in Headers */,
 				DB6EAD961F620AEF00CC0B1E /* rand.h in Headers */,
-				DB6EAD741F620AEF00CC0B1E /* des_old.h in Headers */,
 				DB6EADAD1F620AEF00CC0B1E /* x509_vfy.h in Headers */,
 				DB6EAD931F620AEF00CC0B1E /* pkcs12.h in Headers */,
 				DB6EAD801F620AEF00CC0B1E /* evp.h in Headers */,
 				DB6EAD7E1F620AEF00CC0B1E /* engine.h in Headers */,
-				DB6EADA21F620AEF00CC0B1E /* ssl23.h in Headers */,
 				DB6EAD891F620AEF00CC0B1E /* modes.h in Headers */,
 				DB6EAD821F620AEF00CC0B1E /* idea.h in Headers */,
 				DB6EADAE1F620AEF00CC0B1E /* x509v3.h in Headers */,
@@ -356,7 +332,6 @@
 				DB6EAD631F620AEF00CC0B1E /* aes.h in Headers */,
 				DB6EAD6D1F620AEF00CC0B1E /* cmac.h in Headers */,
 				DB6EADA81F620AEF00CC0B1E /* txt_db.h in Headers */,
-				DB6EAD771F620AEF00CC0B1E /* dso.h in Headers */,
 				DB6EAD8B1F620AEF00CC0B1E /* objects.h in Headers */,
 				DB6EAD781F620AEF00CC0B1E /* dtls1.h in Headers */,
 				DB6EAD6E1F620AEF00CC0B1E /* cms.h in Headers */,
@@ -367,7 +342,6 @@
 				DB6EAD701F620AEF00CC0B1E /* conf.h in Headers */,
 				DB6EAD851F620AEF00CC0B1E /* lhash.h in Headers */,
 				DB6EAD8A1F620AEF00CC0B1E /* obj_mac.h in Headers */,
-				DB6EADAA1F620AEF00CC0B1E /* ui_compat.h in Headers */,
 				DB6EAD9A1F620AEF00CC0B1E /* rsa.h in Headers */,
 				DB6EAD7B1F620AEF00CC0B1E /* ec.h in Headers */,
 				DB6EAD7D1F620AEF00CC0B1E /* ecdsa.h in Headers */,
@@ -380,8 +354,6 @@
 				C71BFA051D395F47006DBF18 /* openssl.h in Headers */,
 				DB6EAD651F620AEF00CC0B1E /* asn1_mac.h in Headers */,
 				DB6EAD731F620AEF00CC0B1E /* des.h in Headers */,
-				DB6EAD831F620AEF00CC0B1E /* krb5_asn.h in Headers */,
-				DB6EAD951F620AEF00CC0B1E /* pqueue.h in Headers */,
 				DB6EAD971F620AEF00CC0B1E /* rc2.h in Headers */,
 				DB6EAD901F620AEF00CC0B1E /* ossl_typ.h in Headers */,
 				DB6EAD9F1F620AEF00CC0B1E /* srtp.h in Headers */,

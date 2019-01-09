@@ -155,13 +155,13 @@ function valid()
 
 function clean()
 {
-	echo "Cleaning macOS..."
-	set -x
-	$RM_B "${MAC_HEADER_DEST}"
-	$RM_B -rf "${MAC_INCLUDES_DIR}"
-	$RM_B -rf "${MAC_LIB_DIR}"
-	$RM_B -rf "${MAC_BUILD_DIR}"
-	[ $DEBUG -ne 1 ] && set +x
+	# echo "Cleaning macOS..."
+	# set -x
+	# $RM_B "${MAC_HEADER_DEST}"
+	# $RM_B -rf "${MAC_INCLUDES_DIR}"
+	# $RM_B -rf "${MAC_LIB_DIR}"
+	# $RM_B -rf "${MAC_BUILD_DIR}"
+	# [ $DEBUG -ne 1 ] && set +x
 
 	echo "Cleaning iOS..."
 	set -x
@@ -227,4 +227,6 @@ case $command in
 		usage
     ;;
 esac
+
+echo "Script done"
 
