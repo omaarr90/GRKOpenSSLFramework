@@ -67,4 +67,4 @@ xcodebuild -project "${PROJECT_FILE_PATH}" -target "${TARGET_NAME}" -configurati
 
 # Smash them together to combine all architectures
 echo "smashing together"
-$LIPO_B -create  "${IPHONE_DEVICE_BUILD_DIR}/arm64/${PRODUCT_NAME}.framework/${PRODUCT_NAME}" "${IPHONE_DEVICE_BUILD_DIR}/armv7/${PRODUCT_NAME}.framework/${PRODUCT_NAME}" "${IPHONE_SIMULATOR_BUILD_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}" -output "${UNIVERSAL_OUTPUTFOLDER}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}"
+$LIPO_B -create  "${IPHONE_DEVICE_BUILD_DIR}/armv7/${PRODUCT_NAME}.framework/${PRODUCT_NAME}" "${IPHONE_SIMULATOR_BUILD_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}" -output "${UNIVERSAL_OUTPUTFOLDER}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}"
