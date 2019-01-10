@@ -449,7 +449,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "source \"${SRCROOT}/OpenSSL-iOS/build-framework-ios.sh\"";
+			shellScript = "source \"${SRCROOT}/OpenSSL-iOS/build-framework-ios.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

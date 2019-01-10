@@ -109,9 +109,9 @@ build "armv7s" "${IPHONEOS_SDK}" "ios"
 # build "arm64" "${IPHONEOS_SDK}" "ios"
 
 mkdir -p include-ios
-cp -r /tmp/openssl-${OPENSSL_VERSION}-armv7/include/openssl include-ios/
+cp -r /tmp/openssl-${OPENSSL_VERSION}-i386/include/openssl include-ios/
 
-rm -rf /tmp/openssl-${OPENSSL_VERSION}*
+# rm -rf /tmp/openssl-${OPENSSL_VERSION}*
 
 # build "i386" "${OSX_SDK}" "macos"
 # build "x86_64" "${OSX_SDK}" "macos"

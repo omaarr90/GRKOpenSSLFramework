@@ -7,4 +7,4 @@
  * https://www.openssl.org/source/license.html
  */
 
-#error "This file is obsolete; please update your software."
+//#error "This file is obsolete; please update your software."
